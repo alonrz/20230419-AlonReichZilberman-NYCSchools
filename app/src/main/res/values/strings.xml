@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NYCSchools</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="main_fragment_label">NYC Schools</string>
+    <string name="details_fragment_label">SAT Stats for School</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="school_name">School name</string>
+    <string name="number_of_test_takers">Number of test takers:</string>
+    <string name="critical_reading_average_score">Critical reading average score</string>
+    <string name="math_average_score">Math average score</string>
+    <string name="writing_average_score">Writing average score</string>
+    <string name="oops_something_went_wrong_best_to_try_later">OOPS. Something went wrong. Best to try later...</string>
+</resources>

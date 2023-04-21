@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.details.SatResultsFragment">
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/school_name" />
+
+    <TextView
+        android:id="@+id/txt_name"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/spinnerName"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/number_of_test_takers" />
+
+
+    <TextView
+        android:id="@+id/txt_num_test_takers"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+    <ProgressBar
+        android:id="@+id/spinnerTakers"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/critical_reading_average_score" />
+
+    <TextView
+        android:id="@+id/txt_sat_critical_reading_avg_score"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+    <ProgressBar
+        android:id="@+id/spinnerReading"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/math_average_score" />
+
+    <TextView
+        android:id="@+id/txt_sat_math_avg_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+    <ProgressBar
+        android:id="@+id/spinnerMath"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/writing_average_score" />
+
+    <TextView
+        android:id="@+id/txt_sat_writing_avg_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+    <ProgressBar
+        android:id="@+id/spinnerWriting"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone" />
+
+</LinearLayout>
